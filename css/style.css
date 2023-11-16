@@ -6,6 +6,7 @@
     list-style: none;
 }
 
+
 body
 {
     background-color: #ccc;
@@ -48,6 +49,7 @@ nav
     box-shadow: 0px 0px 8px #0005;
     border-radius: 10px;
     padding: 20px;
+    z-index: 2;
     
 }
 .drop_downmenu *
@@ -102,6 +104,12 @@ nav
 {
 width: 100%;
 min-height:100vh ;
+padding: 70px;
+position: relative;
+}
+.body_content img
+{
+    width: 100%;
 }
 .body_content .body_left_section
 {
@@ -111,7 +119,7 @@ min-height:100vh ;
 
 .body_content .body_left_section .banner_title
 {
-    margin-top: 50%;
+    margin-top: 10%;
     font-size: 50px;
     color: black;
 }
@@ -122,3 +130,15 @@ min-height:100vh ;
     display: inline-block;
 
 }
+.body_content .banner_content
+{
+    width: 50%;
+}
+.body_right_section img
+{
+    width: 30%;
+    position: absolute;
+    right: 10rem;
+    top: 0rem;
+}
+
