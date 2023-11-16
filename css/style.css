@@ -7,6 +7,13 @@
 }
 
 
+.logo
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
 body
 {
     background-color: #ccc;
@@ -134,6 +141,21 @@ position: relative;
 {
     width: 50%;
 }
+
+
+.btn_link
+{
+ margin-top: 4rem;
+}
+.btn_link a
+{
+padding: 10px;
+border: 1px solid #000;
+border-radius: 5px;
+font-weight: bold;
+}
+
+
 .body_right_section img
 {
     width: 30%;
@@ -141,4 +163,11 @@ position: relative;
     right: 10rem;
     top: 0rem;
 }
-
+.clients
+{
+    margin-top: 4rem;
+}
+.clients img
+{
+    width: 100px;
+}
